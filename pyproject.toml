@@ -1,0 +1,13 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "notebook_static_analyzer"
+author = "mima_ita"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = [
+  "flake8",
+  "flake8-json",
+  "pyspellchecker"
+]
